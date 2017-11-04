@@ -1,16 +1,16 @@
-File:       
+#File:       
 	catvsdog.py
-Author:     
+#Author:     
 	David Weber
-Date:       
+#Date:       
 	11/03/2017
-Version:    
+#Version:    
 	1.0
 
-Project:	
+#Project:	
 	Spotify Puzzle -- Cat vs. Dog
 
-Contents:   
+#Contents:   
 	This program accepts a number of testcases, at most 100, and then prompts
 	the user to enter a number of cats, dogs, and viewers (c, d, v) where 
 	1 <= c, d <= 100  and  0 <= v <= 500. Once these conditions have been set,
@@ -20,14 +20,15 @@ Contents:
 	(lowercase also accepted) and ends with a number specifying which cat or dog 
 	to vote for. 
 
-Algorithm:	The algorithm I used to calculate maximum voters satisfied is as follows:
+#Algorithm:
+	The algorithm I used to calculate maximum voters satisfied is as follows:
 
 	1) If we are voting for a Cat, add 1 to the corresponding cat number in cats list
-						and subtract 1 from the corresponding dog number in dogs list. 
+		and subtract 1 from the corresponding dog number in dogs list. 
 
 	2) So long as the specified Cat is scoring positively, AND the specified Dog is 
-						scoring negatively (or zero), this cat person is satisfied. So add 1 
-						to satisfied.
+		scoring negatively (or zero), this cat person is satisfied. So add 1 
+		to satisfied.
 
 	3) Do the above, conversely, if voting FOR dog and AGAINST cat.
 
