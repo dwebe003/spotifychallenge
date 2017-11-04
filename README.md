@@ -1,12 +1,3 @@
-### File:       
-	catvsdog.py
-### Author:     
-	David Weber
-### Date:       
-	11/03/2017
-### Version:    
-	1.0
-
 ### Project:	
 	Spotify Puzzle -- Cat vs. Dog
 
@@ -39,6 +30,17 @@
 		1) Open Terminal/Command Prompt
 		2) Navigate to folder containing catvsdog.py (using cd commands)
 		3) Type what is contained in these quotations: "python catvsdog.py"
+		
+### File:       
+	catvsdog.py
+### Author:     
+	David Weber
+### Date:       
+	11/03/2017
+### Version:    
+	1.0
+
+
  
 
 
