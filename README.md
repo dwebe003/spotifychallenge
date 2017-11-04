@@ -9,7 +9,8 @@
 	is the pet this voter wants to stay, and the second identifier is the pet
 	this voter wants to leave. Each identifier begins with the letter 'C' or 'D' 
 	(lowercase also accepted) and ends with a number specifying which cat or dog 
-	to vote for. 
+	to vote for. The program then runs through an algorithm to determine the
+	maximum number of voters satisfied.
 
 ### Algorithm:
 	The algorithm I used to calculate maximum voters satisfied is as follows:
