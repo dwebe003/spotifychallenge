@@ -12,17 +12,19 @@
 	to vote for. The program then runs through an algorithm to determine the
 	maximum number of voters satisfied.
 
-### Algorithm:
+### Algorithm:	
 	The algorithm I used to calculate maximum voters satisfied is as follows:
 
-	1) If we are voting for a Cat, add 1 to the corresponding cat number in cats list
-		and subtract 1 from the corresponding dog number in dogs list. 
+	1) If we are voting for a Cat (or Dog), add the vote to the left (or right) 
+					partition of the Graph.
 
-	2) So long as the specified Cat is scoring positively, AND the specified Dog is 
-		scoring negatively (or zero), this cat person is satisfied. So add 1 
-		to satisfied.
+	2) Next we check for edge contradiction. Votes are in the format (a, b). 
+		So if we add a new vote (a, b) and check each vote (c, d) in the opposite
+		partition, and we find that a=d or b=c then we cannot augment our
+		number of satisfied voters.
 
-	3) Do the above, conversely, if voting FOR dog and AGAINST cat.
+	note) This problem is equivalent to finding the max cardinality of each subcover
+			of a bipartite graph. Cats on the left, dogs on the right.
 
 
 //----------------------------------------------------------------//
