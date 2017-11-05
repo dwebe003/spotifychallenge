@@ -73,32 +73,44 @@ def voter(c, d, v):
 		elif(string1[0] == 'C' or string1[0] == 'c'):
 			G.addleft(vote)
 			catVotes.append(vote)
+			contradiction = 'false'
 			
 			if len(dogVotes) == 0:
 				satisfied += 1
 			else:
-				#checks for contradiction
+				# checks for contradiction
 				for x in range(len(dogVotes)):
 					if( (vote[0][1] == G.right[x][1][1]) or (vote[1][1] == G.right[x][0][1]) ):
-						continue
+						contradiction = 'true'
+						break
 					else:
 						satisfied += 1
+						
+				# if no contradictions found, increment our max subcover
+				if contradiction == 'false':
+					satisfied += 1
 			
 				
 		# checks if voter is dog person	
 		elif(string1[0] == 'D' or string1[0] == 'd'):
 			G.addright(vote)
 			dogVotes.append(vote)
+			contradiction = 0
 			
 			if len(catVotes) == 0:
 				satisfied += 1
 			else:
-				#checks for contradiction
+				# checks for contradiction
 				for x in range(len(catVotes)):
 					if( (vote[0][1] == G.left[x][1][1]) or (vote[1][1] == G.left[x][0][1]) ):
-						continue
+						contradiction = 'true'
+						break
 					else:
-						satisfied += 1
+						contradiction = 'false'
+						
+				# if no contradictions found, increment our max subcover
+				if contradiction == 'false':
+					satisfied += 1
 			
 		else:
 			print("Error: recast please...\n")
