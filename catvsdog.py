@@ -19,14 +19,16 @@
 #
 #	Algorithm:	The algorithm I used to calculate maximum voters satisfied is as follows:
 #
-#				1) If we are voting for a Cat, add 1 to the corresponding cat number in cats list
-#						and subtract 1 from the corresponding dog number in dogs list. 
+#				1) If we are voting for a Cat (or Dog), add the vote to the left (or right) 
+#					partition of the Graph.
 #
-#				2) So long as the specified Cat is scoring positively, AND the specified Dog is 
-#						scoring negatively (or zero), this cat person is satisfied. So add 1 
-#						to satisfied.
+#				2) Next we check for edge contradiction. Votes are in the format (a, b). 
+#					So if we add a new vote (a, b) and check each vote (c, d) in the opposite
+#					partition, and we find that a=d or b=c then we cannot augment our
+#					number of satisfied voters.
 #
-#				3) Do the above, conversely, if voting FOR dog and AGAINST cat.
+#				note) This problem is equivalent to finding the max cardinality of each subcover
+#						of a bipartite graph. Cats on the left, dogs on the right.
 #
 #########################################################################################
 class BiGraph:
@@ -75,6 +77,7 @@ def voter(c, d, v):
 			if len(dogVotes) == 0:
 				satisfied += 1
 			else:
+				#checks for contradiction
 				for x in range(len(dogVotes)):
 					if( (vote[0][1] == G.right[x][1][1]) or (vote[1][1] == G.right[x][0][1]) ):
 						continue
@@ -90,6 +93,7 @@ def voter(c, d, v):
 			if len(catVotes) == 0:
 				satisfied += 1
 			else:
+				#checks for contradiction
 				for x in range(len(catVotes)):
 					if( (vote[0][1] == G.left[x][1][1]) or (vote[1][1] == G.left[x][0][1]) ):
 						continue
