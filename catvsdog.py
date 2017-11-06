@@ -95,7 +95,7 @@ def voter(c, d, v):
 		elif(string1[0] == 'D' or string1[0] == 'd'):
 			G.addright(vote)
 			dogVotes.append(vote)
-			contradiction = 0
+			contradiction = 'false'
 			
 			if len(catVotes) == 0:
 				satisfied += 1
@@ -152,7 +152,6 @@ def intro():
 #########################################################################################
 
 def main():
-
 	
 	numTests = intro()
 
