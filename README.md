@@ -39,7 +39,7 @@
 ### Author:     
 	David Weber
 ### Date:       
-	11/03/2017
+	Nov 3, 2017
 ### Version:    
 	1.0
 

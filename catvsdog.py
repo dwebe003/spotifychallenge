@@ -2,7 +2,7 @@
 #
 #   File:       catvsdog.py
 #   Author:     David Weber
-#   Date:       11/03/2017
+#   Date:       Nov 03, 2017
 #   Version:    1.0
 #
 #	Project:	Spotify Puzzle -- Cat vs. Dog
