@@ -4,6 +4,8 @@
 	working it out and I definitely look forward to more. One of my favorite areas of math is 
 	Combinatorics so it is always an engaging challenge to take on a Graph theory problem. 
 	
+	If you've made it this far then I would like to say thank you for considering me, and
+	I wish you the best in choosing some ace candidates for Spotify. Hej då!
 	
 ### Project:	
 	Spotify Puzzle -- Cat vs. Dog
