@@ -1,8 +1,8 @@
 ### Greetings Earthling:
-	Hey there Spotify! If you're reading this then, hurray, you've made it to my GitHub!
+	Hey there Spotify! If you're reading this then, huzzah, you've made it to my GitHub.
 	Here you will find my python code for your Cat vs. Dog puzzle. I had a lot of fun 
-	working it out and I definitely look forward to more. One of my favorite areas of math is 
-	Combinatorics so it is always an engaging challenge to take on a Graph theory problem. 
+	working it out and I definitely look forward to more. Combinatorics is awesome,
+	so it is always a rewarding challenge to take on a Graph theory problem. 
 	
 	If you've made it this far then I would like to say thank you for considering me, and
 	I wish you the best in choosing some real aces for Spotify. 
@@ -32,8 +32,8 @@
 		partition, and we find that a=d or b=c then we cannot augment our
 		number of satisfied voters.
 
-	note) This problem is equivalent to finding the max cardinality of each subcover
-			of a bipartite graph. Cats on the left, dogs on the right.
+	note) This problem is equivalent to finding the maximum possible cardinality of 
+	vertices without conflict in a bipartite graph. Cats on the left, dogs on the right.
 
 
 //----------------------------------------------------------------//
