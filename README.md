@@ -2,7 +2,7 @@
 	Hey there Spotify! If you're reading this then, huzzah, you've made it to my GitHub.
 	
 	If you haven't already seen it, here's a quick "resume website" I made in addition
-	to my application. 
+	to my application. #http://www.spotify-david.me/
 	
 	Here you will find my python code for your Cat vs. Dog puzzle. I had a lot of fun 
 	working it out and I definitely look forward to more. Combinatorics is awesome,
@@ -11,7 +11,6 @@
 	If you've made it this far then I would like to say thank you for considering me, and
 	I wish you the best in choosing some real aces for Spotify. 
 	
-http://www.spotify-david.me/
 	
 ### Project:	
 	Spotify Puzzle -- Cat vs. Dog
