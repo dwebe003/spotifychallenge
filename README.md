@@ -1,10 +1,10 @@
 # Hey there Spotify! Huzzah, you found my GitHub.
 
 **If you haven't already seen it, here's a quick "resume website" I made in addition  
-to my application. -->** http://spotify-david.me/
+to my application. -->** http://spotify-david.me/  
 \
 \
-
+\
 
 Here you will find my python code for your Cat vs. Dog puzzle. I had a lot of fun 
 working it out and I definitely look forward to more. Combinatorics is awesome,
