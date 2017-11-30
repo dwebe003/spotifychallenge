@@ -1,4 +1,5 @@
-# Hey there Spotify! If you're reading this then, huzzah, you've made it to my GitHub.
+# Hey there Spotify! 
+## If you're reading this then, huzzah, you've made it to my GitHub.
 
 **If you haven't already seen it, here's a quick "resume website" I made in addition  
 to my application. -->** http://spotify-david.me/
