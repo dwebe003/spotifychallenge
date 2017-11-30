@@ -1,6 +1,7 @@
 ### Greetings Earthling:
-If you haven't already seen it, here's a quick "resume website" I made in addition
+If you haven't already seen it, here's a quick "resume website" I made in addition  
 to my application. --> http://spotify-david.me/
+
 	Hey there Spotify! If you're reading this then, huzzah, you've made it to my GitHub.
 	
 	Here you will find my python code for your Cat vs. Dog puzzle. I had a lot of fun 
