@@ -5,12 +5,12 @@ to my application. -->** http://spotify-david.me/
 \
 \
 \
-Here you will find my python code for your Cat vs. Dog puzzle. I had a lot of fun 
-working it out and I definitely look forward to more. Combinatorics is awesome,
-so it is always a rewarding challenge to take on a Graph theory problem. 
+	Here you will find my python code for your Cat vs. Dog puzzle. I had a lot of fun 
+	working it out and I definitely look forward to more. Combinatorics is awesome,
+	so it is always a rewarding challenge to take on a Graph theory problem. 
 	
-If you've made it this far then I would like to say thank you for considering me, and
-I wish you the best in choosing some real aces for Spotify. 
+	If you've made it this far then I would like to say thank you for considering me, and
+	I wish you the best in choosing some real aces for Spotify. 
 	
 	
 ### Project:	
