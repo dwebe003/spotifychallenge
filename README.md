@@ -4,8 +4,7 @@
 to my application. -->** http://spotify-david.me/
 \
 \
-\
-
+\  
 	Here you will find my python code for your Cat vs. Dog puzzle. I had a lot of fun 
 	working it out and I definitely look forward to more. Combinatorics is awesome,
 	so it is always a rewarding challenge to take on a Graph theory problem. 
