@@ -11,11 +11,11 @@
 #   Contents:   This program first obtains the total # of songs, n, as well as the 
 #				# of best songs we want to be displayed, m. It then gets user input
 #				in the form of an integer f (# of times the song was listened to) and
-#				a string s (title of the song). Zepf's Law then calculates the quality
+#				a string s (title of the song). Zipf's Law then calculates the quality
 #				for each entry i and added to a new array. From there it is just a 
 #				mission of displaying the songs of max quality in descending order.
 #
-#	Algorithm:	Zepf's Law: 
+#	Algorithm:	Zipf's Law: 
 #					quality_i = f_i / z_i,      where z_i = 1 / (i+1) 
 #
 #												[assuming our arrays start at 0]
@@ -64,7 +64,7 @@ public class zipf {
 			arr1[i] = k;
 			arr2[i] = s;
 			
-			// Zepf's Law
+			// Zipf's Law
 			// q_i = f_i / z_i 
 			//	   = f_i / (1 / i)
 			double denom = 1.0 / (i + 1.0);
